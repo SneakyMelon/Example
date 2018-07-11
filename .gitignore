@@ -1,0 +1,13 @@
+# Git Ignore File
+
+
+# Individual or Specific Files
+.git
+.htaccess
+
+
+
+# Directories
+vendor/
+
+
