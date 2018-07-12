@@ -2,11 +2,13 @@
 
 [![Software License][ico-license]](LICENSE.md)
 
-This is an Example blog style website in an attempt to relearn many elements of web development. This blog
-aims to provide working examples of database interactions, show case logic, PSR knowledge and much more.
+This is an Example blog style website in an attempt to relearn many elements of web development as well as
+many new ones. This will hopefully include creating my own tests, creating scaling apps and caching.
 
-Example does not follow the MVC logic control such as many other frameworks. This has been a deliberate attempt
-to learn how to develop without using larger projects to copy and paste from.
+The short term aims of Example is to provide working examples of database interactions, show case logic, 
+PSR knowledge and more as features are added. Example does not follow the MVC logic control such as many 
+other frameworks. This has been a deliberate attempt to learn how to develop without using larger projects
+to copy and paste from.
 
 ## Structure
 
