@@ -15,7 +15,7 @@ class BlogPageReader implements BlogReader
 
     public function readByPostIdentification(string $id) : string
     {
-        $path = "$this->pageFolder/blog/$id.md";
+        $path = "$this->pageFolder/$id.md";
 
         if (!file_exists($path)){
             throw new \Example\Blog\InvalidBlogIdException($id);

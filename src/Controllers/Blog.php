@@ -48,4 +48,9 @@ class Blog
         $html = $this->renderer->render('Blog', $data);
         $this->response->setContent($html);
     }
+
+    public function index()
+    {
+        // Show index file for blog
+    }
 }

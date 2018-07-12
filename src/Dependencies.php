@@ -57,15 +57,14 @@ $injector->alias('Example\Template\Renderer', 'Example\Template\TwigRenderer');
 $injector->alias('Example\Template\FrontendRenderer', 'Example\Template\FrontendTwigRenderer');
 $injector->alias('Example\Template\ParsedownRenderer', 'Example\Template\MarkdownRenderer');
 
-
 $injector->define('Example\Page\FilePageReader', [
-    ':pageFolder' => __DIR__ . '/../pages',
+    ':pageFolder' => __DIR__ . '/pages/hello/',
 ]);
 $injector->alias('Example\Page\PageReader', 'Example\Page\FilePageReader');
 $injector->share('Example\Page\FilePageReader');
 
 $injector->define('Example\Blog\BlogPageReader', [
-    ':pageFolder' => __DIR__ . '/../pages',
+    ':pageFolder' => __DIR__ . '/pages/blog/',
 ]);
 $injector->alias('Example\Blog\BlogReader', 'Example\Blog\BlogPageReader');
 $injector->share('Example\Blog\BlogPageReader');
